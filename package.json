@@ -1,0 +1,16 @@
+{
+  "name": "random_wgsl",
+  "version": "0.1.0",
+  "type": "module",
+  "files": [
+    "src",
+    "dist"
+  ],
+  "exports": {
+    ".": {
+      "types": "./dist/wgslBundle.d.ts",
+      "import": "./dist/wgslBundle.js"
+    }
+  }
+  
+}
