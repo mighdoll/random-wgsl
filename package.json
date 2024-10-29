@@ -6,11 +6,16 @@
     "src",
     "dist"
   ],
+  "scripts": {
+    "build": "wgsl-packager --rootDir src"
+  },
   "exports": {
     ".": {
       "types": "./dist/wgslBundle.d.ts",
       "import": "./dist/wgslBundle.js"
     }
+  },
+  "devDependencies": {
+    "wgsl-packager": "^0.5.0-d1"
   }
-  
 }
